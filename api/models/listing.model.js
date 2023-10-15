@@ -18,7 +18,7 @@ const listingSchema = new mongoose.Schema(
             type: Number,
            
         },
-        git branch -M main: {
+        discountedPrice: {
             type: Number,
             
         },
@@ -72,5 +72,3 @@ const Listing = mongoose.model( "Listing", listingSchema );
  
 
 export default Listing;
-
-
