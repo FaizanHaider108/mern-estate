@@ -1,0 +1,23 @@
+.backImg{
+    background-image: url("../assets/about-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.backImg h1{
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.location-dev{
+    margin-top: 50px;
+}
+
