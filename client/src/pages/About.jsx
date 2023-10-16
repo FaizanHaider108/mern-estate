@@ -2,7 +2,6 @@ import React from 'react'
 import Header from "../components/Header"
 import { FaLocationArrow } from "react-icons/fa"
 import { MdEmail } from "react-icons/md"
-import alkabir from "../assets/alkabir.jpg"
 import Footer from "../components/Footer"
 import "../css/About.css"
 import MapComponent from '../components/MapComponent'
@@ -71,7 +70,7 @@ const About = () => {
         <div className='flex gap-3 items-center justify-center flex-wrap bg-slate-600 w-full rounded-lg p-3'>
          
           <div className='flex flex-col gap-2 items-center'>
-            <img className='rounded-lg w-[200px] h-[100px]' src={ alkabir } alt="Al-Kabir Orchard" />
+            <img className='rounded-lg w-[200px] h-[100px]' src="https://estateland.com.pk/wp-content/uploads/2022/08/AL-KABIR-ORCHARD-FEATURED-IMAGE.jpg" alt="Al-Kabir Orchard" />
             <h1 className='text-sm text-slate-200 font-bold'>ALKabir-Orchard</h1>
           </div>  
           <div className='flex flex-col gap-2 items-center'>
