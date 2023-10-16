@@ -13,7 +13,7 @@ const Team = () => {
   return (
       <div className='mb-[50px] flex items-center justify-center flex-col p-3 bg-slate-900 max-w-6xl mx-auto h-[100%] rounded-lg'>
           {/* ceo section */}
-          <div className='flex flex-wrap gap-10 m-8'>
+          <div className='flex  gap-5 sm:gap-10 m-8'>
           <div className='flex align-center items-center gap-4 flex-col'>
                   <img className='w-40 h-40 rounded-full' src={ Sohaib } alt="Co-founder Sohaib Cheema" />
                   <h1 className='text-2xl text-white ' >Sohaib Cheema</h1>
@@ -27,7 +27,7 @@ const Team = () => {
                   <img className='w-40 h-40 rounded-full' src={ Sharbaz } alt="Co-founder Shairbaz" />
                   <h1 className='text-2xl text-white' >Muhammad Sherbaz</h1>
                   <p className='text-sm text-blue-300'>Co-founder of NextLand</p>
-                  <a href="https://wa.me/+923006900008" target='_blank' className='flex items-center gap-1 text-xl bg-green-500 p-3 text-white rounded-lg'>
+                  <a href="https://wa.me/+923212655552" target='_blank' className='flex items-center gap-1 text-xl bg-green-500 p-3 text-white rounded-lg'>
                       <FaWhatsapp  className='text-2xl'/>
                       Whatsapp
                   </a>
@@ -43,7 +43,7 @@ const Team = () => {
 
 
                   <div className='flex flex-wrap justify-evenly gap-10 w-full'>
-                      <div className='flex gap-10 flex-wrap mt-[50px]'>
+                      <div className='flex gap-5 sm:gap-10 flex-wrap items-center justify-center mt-[50px]'>
 
                           <div className='flex align-center items-center gap-4 flex-col'>
                               <img className='w-40 h-40 rounded-full' src={ waqas } alt="Co-founder Sohaib Cheema" />
