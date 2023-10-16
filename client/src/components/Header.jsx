@@ -56,7 +56,7 @@ const Header = () => {
                     </button>
                 </form>
 
-                <ul className='flex gap-6 '>
+                <ul className='flex sm:gap-6 gap-2 '>
                     <Link to="/">
                         <li className='hidden sm:inline hover:underline cursor-pointer'>Home</li>
                     </Link>
@@ -82,6 +82,7 @@ const Header = () => {
                                 <Link className='text-white text-2xl' to="/">Home</Link>
                                 <Link className='text-white text-2xl' to="/about">About</Link>
                                 <Link className='text-white text-2xl' to="/contact">Contact</Link>
+
                             </div>
                         </div>
                     </div>
