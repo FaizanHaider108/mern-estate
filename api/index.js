@@ -16,8 +16,8 @@ mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTop
     .catch((err) => console.log(err));
 
 
-
-const _dirname = path.resolve();
+const app = express();
+const __dirname = path.resolve();
 
 const port = process.env.PORT || 3000; // Use the PORT environment variable if defined, otherwise use 3000.
 
@@ -25,7 +25,7 @@ app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 } );
 
-const app = express();
+
 
 // path APi Route
 app.use( "/api/user", userRoute );
