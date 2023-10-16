@@ -71,7 +71,7 @@ const Footer = () => {
               <div>
                 <h1 className='text-4xl text-slate-500 font-semibold'>Socials</h1>
                 <div className='flex gap-4'>
-                  <a href="https://www.instagram.com/nextlandpk/" target='blank'>
+                  <a href="https://instagram.com/nextlandpk?igshid=OGQ5ZDc2ODk2ZA==" target='blank'>
                     <BsInstagram className='text-slate-300 mt-[10px]' />
                   </a>
                   <a href="https://www.facebook.com/profile.php?id=61552426563200" target='blank'>
