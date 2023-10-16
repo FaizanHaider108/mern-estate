@@ -6,6 +6,8 @@ import { BsTelephone } from "react-icons/bs"
 import { CiLocationOn } from "react-icons/ci"
 import { TbNetwork } from "react-icons/tb"
 import { useSelector } from "react-redux"
+import { BsInstagram } from "react-icons/bs"
+import { BsFacebook } from "react-icons/bs"
 const Footer = () => {
   const { currentUser } = useSelector( state => state.user );
   return (
@@ -27,7 +29,7 @@ const Footer = () => {
                 Home
               </Link>
               <Link to={ "/about" } className='text-slate-200'>
-                about
+                About
               </Link>
               <Link to={ "/contact" } className='text-slate-200'>
                 Contact
@@ -65,6 +67,17 @@ const Footer = () => {
                 <a href="tel:+923212655552">
                   <p class="text-white">+92-321-2655552</p>
                 </a>
+              </div>
+              <div>
+                <h1 className='text-4xl text-slate-500 font-semibold'>Socials</h1>
+                <div className='flex gap-4'>
+                  <a href="https://www.instagram.com/nextlandpk/" target='blank'>
+                    <BsInstagram className='text-slate-300 mt-[10px]' />
+                  </a>
+                  <a href="https://www.facebook.com/profile.php?id=61552426563200" target='blank'>
+                    <BsFacebook className='text-slate-300 mt-[10px]' />
+                  </a>
+                </div>
               </div>
             </div>
           </div>

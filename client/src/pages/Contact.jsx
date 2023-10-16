@@ -47,7 +47,7 @@ const Contact = () => {
               </div>
               <div>
                 <form className='flex flex-col'
-                  action="https://formsubmit.co/fiver1faizan@gmail.com" method="POST">
+                  action="https://formsubmit.co/info@nextlandpk.com" method="POST">
 
                   <label className='mb-3 font-semibold text-white '> Name</label>
                   <input type="text"
