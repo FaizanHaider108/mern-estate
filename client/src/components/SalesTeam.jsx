@@ -21,7 +21,7 @@ const SalesTeam = () => {
                     <div className='flex align-center items-center gap-4 flex-col'>
                         <img className='w-40 h-40 rounded-full' src={ Sohaib } alt="Co-founder Sohaib Cheema" />
                         <h1 className='text-2xl text-white ' >Sohaib Cheema</h1>
-                        <p className='text-sm text-blue-300'>Co-founder of NextLand</p>
+                        <p className='text-sm text-blue-300'>Group Head</p>
                         <a href="https://wa.me/+923006900008" target='_blank' className='flex items-center gap-1 text-xl bg-green-500 p-3 text-white rounded-lg'>
                             <FaWhatsapp className='text-2xl' />
                             Whatsapp
@@ -30,7 +30,7 @@ const SalesTeam = () => {
                     <div className='flex align-center items-center gap-4 flex-col'>
                         <img className='w-40 h-40 rounded-full' src={ Sharbaz } alt="Co-founder Shairbaz" />
                         <h1 className='text-2xl text-white' >Muhammad Sherbaz</h1>
-                        <p className='text-sm text-blue-300'>Co-founder of NextLand</p>
+                        <p className='text-sm text-blue-300'>Group Head</p>
                         <a href="https://wa.me/+923212655552" target='_blank' className='flex items-center gap-1 text-xl bg-green-500 p-3 text-white rounded-lg'>
                             <FaWhatsapp className='text-2xl' />
                             Whatsapp
@@ -85,7 +85,7 @@ const SalesTeam = () => {
                                 <div className='flex align-center items-center gap-4 flex-col'>
                                     <img className='w-40 h-40 rounded-full' src={ Gondal } alt="Co-founder Sohaib Cheema" />
                                     <h1 className='text-2xl text-white'>Asif Gondal</h1>
-                                    <p className='text-sm text-blue-300'>Property Agent & (Tax Advisor) </p>
+                                    <p className='text-sm text-blue-300'>Property Agent & Tax Advisor </p>
                                     <a href="https://wa.me/+923490745833" target='_blank' className='flex items-center gap-1 text-xl bg-green-500 p-3 text-white rounded-lg'>
                                         <FaWhatsapp className='text-2xl' />
                                         Whatsapp
