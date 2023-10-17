@@ -11,6 +11,7 @@ import UpdateListings from './pages/UpdateListings';
 import Listing from './pages/Listing';
 import Search from './pages/Search';
 import Contact from './pages/Contact.jsx';
+import SalesTeam from './components/SalesTeam';
 const App = () => {
   return (
     <BrowserRouter>
@@ -21,7 +22,8 @@ const App = () => {
         <Route path='/Sign-up' element={<SignUp /> } />
         <Route path='/about' element={ <About /> } />
         <Route path='/search' element={<Search /> } />
-        <Route path='/contact' element={<Contact /> } />
+        <Route path='/contact' element={ <Contact /> } />
+        <Route path="/SalesTeam" element={ <SalesTeam /> } />
         <Route path='/listing/:listingId' element={ <Listing /> } />
          <Route element={<PrivateRoute />}>
           <Route path='/profile' element={ <Profile /> } />

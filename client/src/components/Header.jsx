@@ -60,6 +60,9 @@ const Header = () => {
                     <Link to="/">
                         <li className='hidden sm:inline hover:underline cursor-pointer'>Home</li>
                     </Link>
+                    <Link to="/SalesTeam">
+                        <li className='hidden sm:inline hover:underline cursor-pointer'>Sales Team</li>
+                    </Link>
                     <Link to="/about">
                         <li className='hidden sm:inline hover:underline cursor-pointer'>About</li>
                     </Link>
@@ -80,6 +83,9 @@ const Header = () => {
                             <GiHamburgerMenu onClick={ handleToggleMenu } className='text-slate-900 text-2xl' />
                             <div className={ `p-3 left-0 flex flex-col gap-10 absolute top-20 bg-slate-900 w-full  ${ToggleMenu ? 'visible' : 'hidden'}` }>
                                 <Link className='text-white text-2xl' to="/">Home</Link>
+                                <Link to="/SalesTeam">
+                                    <li className='hidden sm:inline hover:underline cursor-pointer'>Sales Team</li>
+                                </Link>
                                 <Link className='text-white text-2xl' to="/about">About</Link>
                                 <Link className='text-white text-2xl' to="/contact">Contact</Link>
 
