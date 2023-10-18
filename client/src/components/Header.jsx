@@ -79,15 +79,15 @@ const Header = () => {
 
                     {/* mobile menu */ }
                     <div className='mobile-menu'>
-                        <div className={ `flex flex-col gap-5 top-5 right-2` }>
+                        <div className={ `flex flex-col items-center gap-5 top-5 right-2` }>
                             <GiHamburgerMenu onClick={ handleToggleMenu } className='text-slate-900 text-2xl' />
                             <div className={ `p-3 left-0 flex flex-col gap-10 absolute top-20 bg-slate-900 w-full  ${ToggleMenu ? 'visible' : 'hidden'}` }>
-                                <Link className='text-white text-2xl' to="/">Home</Link>
-                                <Link to="/SalesTeam">
-                                    <li className='hidden sm:inline hover:underline cursor-pointer'>Sales Team</li>
+                                <Link className='text-white text-xl' to="/">Home</Link>
+                                <Link className='text-white text-xl' to="/SalesTeam">
+                                    Sales Team
                                 </Link>
-                                <Link className='text-white text-2xl' to="/about">About</Link>
-                                <Link className='text-white text-2xl' to="/contact">Contact</Link>
+                                <Link className='text-white text-xl' to="/about">About</Link>
+                                <Link className='text-white text-xl' to="/contact">Contact</Link>
 
                             </div>
                         </div>
