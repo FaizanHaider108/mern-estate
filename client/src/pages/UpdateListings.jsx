@@ -295,7 +295,7 @@ export default function UpdateListings() {
                         </div>
                         <div className='flex items-center gap-2'>
                             <input
-                                type='number'
+                                type='text'
                                 id='bathrooms'
                                 min='1'
                                 max='10'
@@ -308,7 +308,7 @@ export default function UpdateListings() {
                         </div>
                         <div className='flex items-center gap-2'>
                             <input
-                                type='number'
+                                type='text'
                                 id='regularPrice'
                                 required
                                 className='p-3 border border-gray-300 rounded-lg'

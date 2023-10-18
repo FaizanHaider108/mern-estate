@@ -25,8 +25,8 @@ export default function CreateListing() {
         bathrooms: '',
         email: '',
         contact: '',
-        regularPrice: 0,
-        discountedPrice: 0,
+        regularPrice: '',
+        discountedPrice: '',
         offer: false,
         parking: false,
         furnished: false,
@@ -290,7 +290,7 @@ export default function CreateListing() {
                             </div>
                             <div className='flex items-center gap-2'>
                                 <input
-                                    type='number'
+                                    type='text'
                                     id='regularPrice'
                                     required
                                     className='p-3 border border-gray-300 rounded-lg'
@@ -307,7 +307,7 @@ export default function CreateListing() {
                             { formData.offer && (
                                 <div className='flex items-center gap-2'>
                                     <input
-                                        type='number'
+                                        type='text'
                                         id='discountedPrice'
                                         required
                                         className='p-3 border border-gray-300 rounded-lg'
