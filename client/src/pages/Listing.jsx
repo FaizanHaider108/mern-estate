@@ -157,16 +157,16 @@ const Listing = () => {
                                 <span className='font-semibold text-black'>Description - </span>
                                 { listing.description }
                             </p>
-                            <div className='flex items-cente  gap-10 p-3 rounded-lg'>
+                            <div className='flex flex-wrap items-center  gap-10 p-3 rounded-lg'>
 
                                 <button
-                                    className='text-2xl text-white bg-black flex p-4 rounded-lg items-center w-100% gap-4 '
+                                    className='text-xl text-white bg-black flex  p-4 rounded-lg items-center w-100% gap-4 '
                                 >
                                     <FaPhone className='text-2xl text-white' />
                                     <a href={ `tel:0${listing.contact}` }>Contact</a>
                                 </button>
                                 <button
-                                    className='text-2xl text-white bg-green-600 flex p-4 rounded-lg items-center w-100% gap-4'
+                                    className='text-xl text-white bg-green-400 flex p-4 rounded-lg items-center w-100% gap-4'
                                     onClick={ () => {
                                         const phoneNumber = listing.contact;
                                         const whatsappURL = `https://wa.me/${phoneNumber}`;
