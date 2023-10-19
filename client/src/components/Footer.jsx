@@ -88,7 +88,7 @@ const Footer = () => {
               <h1 className='mb-4 text-slate-500 text-3xl font-bold'>Address</h1>
               <div className='flex gap-1 items-baseline'>
                 <CiLocationOn className='loaction-icon text-slate-200' />
-                <p className='text-slate-200 locate'>Khyaban-e-Jinaah Read,<br /> Ch-Market  office no# 4</p>
+                <p className='text-slate-200 locate'>office # 4, Ch Market, Khayaban-e-jinnah Road, Wapda Town - Phase 2 Lahore</p>
               </div>
             </div>
             <div className=''>
