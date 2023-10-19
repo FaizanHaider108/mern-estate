@@ -55,16 +55,16 @@ export default function Home() {
     <div>
       <Header />
       <div className='container '>
-        <h1 className='heading'>
+        <h1 className='heading text-white' >
           Find your perfect place with
-          <span className='text-slate-700 font-bold'> NextLand</span>
+          <span className='text-white font-bold'> NextLand</span>
         </h1>
-        <div className='para text-slate-700 sm:font-semibold font-normal '>
+        <div className='para text-white sm:font-semibold font-normal '>
           At NextLand, we've built our reputation on trust. Our unwavering commitment to honesty, integrity, and exceptional service is the
           <br />
           foundation of our client relationships. Trust in us to find your perfect property because your dreams are our priority.
         </div>
-        <Link to='/search' className='text-blue-700  font-bold hover:underline'>
+        <Link to='/search' className='text-white font-bold hover:underline'>
           <button className='search-btn'>Let's Start</button>
         </Link>
       </div>
